@@ -123,6 +123,7 @@ export default function createGoal() {
         >
           <h1 className="text-3xl font-black mb-9">What is you goal?</h1>
           <RadioGroup
+            sx={{flexDirection: "row"}}
             aria-labelledby="demo-controlled-radio-buttons-group"
             name="controlled-radio-buttons-group"
             value={goal}

@@ -272,14 +272,10 @@ export default function myHealth() {
         </div>
 
         <div>
-          <FormControl
-            sx={{m: 0, color: "white"}}
-            component="fieldset"
-            className="m-0"
-          >
+          <FormControl sx={{m: 0}} component="fieldset" className="m-0">
             <h1 className="text-3xl font-black mb-5">Gender</h1>
             <RadioGroup
-              sx={{flexDirection: "row", color: "white"}}
+              sx={{flexDirection: "row"}}
               aria-labelledby="demo-controlled-radio-buttons-group"
               name="controlled-radio-buttons-group"
               value={gender}
@@ -291,6 +287,7 @@ export default function myHealth() {
                   <FormControlLabel
                     control={
                       <Radio
+                        sx={{color: "#ffffff21"}}
                         color="info"
                         icon={type === "Male" ? <MaleIcon /> : <FemaleIcon />}
                         checkedIcon={

@@ -238,6 +238,7 @@ export default function aiCreation() {
                 >
                   <h1 className="text-3xl font-black mb-5">Gender</h1>
                   <RadioGroup
+                    sx={{flexDirection: "row"}}
                     aria-labelledby="demo-controlled-radio-buttons-group"
                     name="controlled-radio-buttons-group"
                     value={gender}
@@ -272,7 +273,7 @@ export default function aiCreation() {
 
               <Grid item xs={12} xl={6} sm={6} md={6} lg={6}>
                 <FormControl
-                  sx={{m: 0, color: "white"}}
+                  sx={{m: 0}}
                   component="fieldset"
                   variant="standard"
                   className="m-0 "
@@ -280,7 +281,7 @@ export default function aiCreation() {
                 >
                   <h1 className="text-3xl font-black mb-5">Routine</h1>
                   <RadioGroup
-                    sx={{flexDirection: "row", color: "white"}}
+                    sx={{flexDirection: "row"}}
                     aria-labelledby="demo-controlled-radio-buttons-group"
                     name="controlled-radio-buttons-group"
                     className="flex flex-row"
@@ -294,16 +295,16 @@ export default function aiCreation() {
                             <Radio
                               icon={
                                 type === "Cutting" ? (
-                                  <FastfoodIcon />
-                                ) : (
                                   <NoFoodIcon />
+                                ) : (
+                                  <FastfoodIcon />
                                 )
                               }
                               checkedIcon={
                                 type === "Cutting" ? (
-                                  <FastfoodIcon />
-                                ) : (
                                   <NoFoodIcon />
+                                ) : (
+                                  <FastfoodIcon />
                                 )
                               }
                               className="text-white"
