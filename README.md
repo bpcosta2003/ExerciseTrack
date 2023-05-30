@@ -9,7 +9,7 @@
 ## Project 🖱️
 
 <h3>Project aimed at creating your workouts!</h3>
-<h3>We can have a 100% customizable workouts, updating weight goals, having AI advices and more!</h3>
+<h3>You can have a 100% customizable workouts, updating weight goals, having AI advices and more!</h3>
 
 </br>
 </br>
