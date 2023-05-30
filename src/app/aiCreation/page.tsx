@@ -231,7 +231,11 @@ export default function aiCreation() {
               </Grid>
 
               <Grid item xs={12} xl={6} sm={6} md={6} lg={6}>
-                <FormControl sx={{m: 3}} component="fieldset" className="m-0">
+                <FormControl
+                  sx={{m: 0, color: "white"}}
+                  component="fieldset"
+                  className="m-0"
+                >
                   <h1 className="text-3xl font-black mb-5">Gender</h1>
                   <RadioGroup
                     aria-labelledby="demo-controlled-radio-buttons-group"
@@ -267,7 +271,7 @@ export default function aiCreation() {
 
               <Grid item xs={12} xl={6} sm={6} md={6} lg={6}>
                 <FormControl
-                  sx={{m: 3}}
+                  sx={{m: 0, color: "white"}}
                   component="fieldset"
                   variant="standard"
                   className="m-0 "

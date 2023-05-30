@@ -263,7 +263,7 @@ export default function createWorkouts() {
           </div>
 
           <FormControl
-            sx={{m: 3}}
+            sx={{m: 0, color: "white"}}
             component="fieldset"
             variant="filled"
             required={true}
