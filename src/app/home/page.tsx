@@ -11,8 +11,8 @@ import plus from "../../../public/add.gif";
 import ai from "../../../public/artificialinteligence.png";
 import dashboard from "../../../public/dashboard.png";
 import goal from "../../../public/goal.png";
-import health from "../../../public/health.png";
 import Logo from "../../../public/Logo.png";
+import meal from "../../../public/meal.png";
 
 export default function Home() {
   return (
@@ -32,6 +32,7 @@ export default function Home() {
                   height={100}
                 />
               </div>
+
               <Link href="/createWorkouts" legacyBehavior>
                 <div className="z-50">
                   <Button text="Create Workout" icon={plus} type="white" />
@@ -43,32 +44,41 @@ export default function Home() {
               <div className="w-full overflow-scroll overflow-x-hidden ">
                 <CardTreino isToday={true} isRemovable={false} />
               </div>
-              <div className="w-full">
-                <CardHealth />
-              </div>
+
+              <Link href="/myHealth" className="w-full z-50 " legacyBehavior>
+                <div className="transition-all w-full cursor-pointer hover:opacity-90">
+                  <CardHealth />
+                </div>
+              </Link>
             </div>
 
-            <div className="flex flex-col gap-10 max-[671px]:pb-10">
+            <div className="flex flex-col gap-10 max-[671px]:pb-10 overflow-scroll h-fit">
               <div className="flex flex-row w-full justify-between gap-10 max-[671px]:flex-col">
-                <Link href="/myHealth" className="w-full z-50" legacyBehavior>
-                  <div className="w-full">
-                    <CardOpts title="My Health" icon={health} />
-                  </div>
-                </Link>
-
                 <Link href="/myWorkouts" className="w-full z-50" legacyBehavior>
                   <div className="w-full">
                     <CardOpts title="My Workouts" icon={dashboard} />
                   </div>
                 </Link>
-              </div>
-              <div className="flex flex-row w-full justify-between gap-10 max-[671px]:flex-col">
                 <Link href="/myGoals" className="w-full z-50" legacyBehavior>
                   <div className="w-full">
                     <CardOpts title="My Goals" icon={goal} />
                   </div>
                 </Link>
-
+              </div>
+              <div className="flex flex-row w-full justify-between gap-10 max-[671px]:flex-col">
+                <Link
+                  href="/mealAnalysis"
+                  className="w-full z-50"
+                  aria-disabled
+                  legacyBehavior
+                >
+                  <div
+                    className="w-full "
+                    style={{pointerEvents: "none", cursor: "not-allowed"}}
+                  >
+                    <CardOpts title="Meals" icon={meal} />
+                  </div>
+                </Link>
                 <Link href="/aiCreation" className="w-full z-50" legacyBehavior>
                   <div className="w-full">
                     <CardOpts title="AI Creation" icon={ai} />

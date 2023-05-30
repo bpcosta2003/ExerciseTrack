@@ -84,7 +84,7 @@ export default function CardHealth() {
           </div>
         </div>
       ) : (
-        <div className="transition-all bg-[#F5F3F4] rounded-xl  flex justify-between items-center h-36 max-[371px]:justify-around max-[371px]:flex-col max-[371px]:h-64">
+        <div className="bg-[#F5F3F4] overflow-y-hidden flex-row  w-full p-4 text-[#2B2D42] text-xl gap-5 transition-all  rounded-xl  flex justify-between items-center h-36 max-[371px]:justify-around max-[371px]:flex-col max-[371px]:h-72">
           <div className="p-4 flex justify-between">
             <Image src={heartbeat} alt="health" width={150} height={150} />
           </div>
@@ -97,9 +97,10 @@ export default function CardHealth() {
           ) : (
             <Link
               href="/myHealth"
-              className="hover:opacity-70 transition-all p-4 pr-8 flex flex-col max-[371px]:flex-row max-[371px]:pr-4 max-[371px]:pb-12 gap-3 text-xl font-black text-end text-[#2B2D42]"
-              legacyBehavior>
-              <h1 className="text-[1em] max-[371px]:text-center">
+              className=" hover:opacity-70 transition-all p-4 pr-8 flex flex-col max-[371px]:flex-row max-[371px]:pr-4 max-[371px]:pb-12 gap-3 text-xl font-black text-end "
+              legacyBehavior
+            >
+              <h1 className="max-[371px]:text-center text-[1em] max-[471px]:text-[0.7em] hover:text-[#2b2d42a6] transition-all">
                 Welcome! Insert your health information
               </h1>
             </Link>
