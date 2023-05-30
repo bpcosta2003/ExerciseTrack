@@ -43,19 +43,19 @@ TEST IT NOW!
 </br>
 
 ## Functionalities ⚙️
-- Create account, log in, reset password ✔️
-- Create training, update and delete it ✔️
+- Create account, log-in, reset password ✔️
+- Create workouts, update and delete it ✔️
 - View workout details once created ✔️
 - Customized exercise list ✔️
-- Create goals, update them and delete them ✔️ 
-- Create weight, height, age status ✔️
+- Create goals, update and delete it ✔️ 
+- Create weight, height and age status ✔️
 - Create BMR ( Basal metabolic rate ) using AI ✔️
 - Have a profile picture, update and delete it ✔️
 
 </br>
 
 ## Improvements to do ⚙️ 
-- Authentication ❌
+- Log-In Authentication ❌
 
 </br>
 
