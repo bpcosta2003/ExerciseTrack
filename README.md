@@ -1,3 +1,65 @@
+</br>
+</br>
+
+![image](https://github.com/bpcosta2003/exercise-track-app/assets/69023428/43475a74-486c-4045-8b49-b30471044fd4)
+By [Bruno Costa](https://www.linkedin.com/in/bruno-costa-3238161b5/)
+
+</br>
+</br>
+
+## Project 🖱️
+
+<h3>Project aimed at creating your workouts!</h3>
+<h3>You can have a 100% customizable workouts, updating weight goals, having AI advices and more!</h3>
+
+</br>
+</br>
+
+![image](https://github.com/bpcosta2003/exercise-track-app/assets/69023428/d723ab38-41cd-498a-a4ab-016db2d2e9a1)
+![image](https://github.com/bpcosta2003/exercise-track-app/assets/69023428/1427d35d-20a9-4f53-bde5-59ce02f80069)
+![image](https://github.com/bpcosta2003/exercise-track-app/assets/69023428/52263ede-36ff-4779-980f-401b8e88f116)
+
+TEST IT NOW!
+
+</br>
+
+## Used technologies 💻 📋
+<div style="display: inline_block"><br>
+ <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+ <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+ <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg">
+ <img align="center" height="30" width="60" src="https://github.com/bpcosta2003/exercise-track-app/assets/69023428/f814076d-dcc9-4359-ac68-8afd417b3d90" />
+ <img align="center" height="30" width="60" src="https://github.com/bpcosta2003/exercise-track-app/assets/69023428/e13e0aa9-f23f-44b3-922a-5e420f065752" />
+ <img align="center" height="30" width="60" src="https://github.com/bpcosta2003/exercise-track-app/assets/69023428/c6a53ebb-a5a6-42cb-93d9-bc8c0b622443" /> 
+ <img align="center" height="30" width="60" src="https://github.com/bpcosta2003/exercise-track-app/assets/69023428/baa27339-27cc-4f27-929f-d10251e24b80" />
+</div>
+
+</br>
+
+## Extensions and other packages 🔧
+- RADIX
+- MUI
+- POSTCSS
+
+</br>
+
+## Functionalities ⚙️
+- Create account, log-in, reset password ✔️
+- Create workouts, update and delete it ✔️
+- View workout details once created ✔️
+- Customized exercise list ✔️
+- Create goals, update and delete it ✔️ 
+- Create weight, height and age status ✔️
+- Create BMR ( Basal metabolic rate ) using AI ✔️
+- Have a profile picture, update and delete it ✔️
+
+</br>
+
+## Improvements to do ⚙️ 
+- Log-In Authentication ❌
+
+</br>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
