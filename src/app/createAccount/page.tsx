@@ -281,18 +281,17 @@ export default function CreateAccount() {
         repeatPassword !== "" &&
         isProcessing === false &&
         (password === repeatPassword) === true ? (
-          <div className="z-50  mt-24 transition-all">
+          <div className="z-50  mt-16 transition-all">
             <Button text="SIGN UP" icon={plus} type="white" />
           </div>
         ) : (
           <Link
             style={{pointerEvents: "none", cursor: "not-allowed"}}
             href="/home"
-            className="z-10  mt-24 opacity-50 transition-all"
-            legacyBehavior
+            className="z-10  mt-16 opacity-50 transition-all"
           >
             {isProcessing === true ? (
-              <div className="bg-white rounded-lg mt-24">
+              <div className="bg-white rounded-lg">
                 <LoadingButton
                   size="large"
                   loading={true}
@@ -301,7 +300,7 @@ export default function CreateAccount() {
                 ></LoadingButton>
               </div>
             ) : (
-              <div className="mt-24">
+              <div className="">
                 <Button text="SIGN UP" icon={plus} type="white" />
               </div>
             )}

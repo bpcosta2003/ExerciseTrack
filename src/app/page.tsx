@@ -192,10 +192,9 @@ export default function Login() {
               style={{pointerEvents: "none", cursor: "not-allowed"}}
               href="/home"
               className="z-50 mt-24 opacity-50 transition-all"
-              legacyBehavior
             >
               {isProcessing === true ? (
-                <div className="bg-white rounded-lg mt-24">
+                <div className="bg-white rounded-lg ">
                   <LoadingButton
                     size="large"
                     loading={true}
@@ -204,7 +203,7 @@ export default function Login() {
                   ></LoadingButton>
                 </div>
               ) : (
-                <div className="mt-24 ">
+                <div className=" ">
                   <Button text="SIGN IN" icon={plus} type="white" />
                 </div>
               )}

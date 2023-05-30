@@ -263,10 +263,9 @@ export default function resetPassword() {
             style={{pointerEvents: "none", cursor: "not-allowed"}}
             href="/"
             className="z-10  mt-24 opacity-50 transition-all"
-            legacyBehavior
           >
             {isProcessing === true ? (
-              <div className="bg-white rounded-lg mt-24">
+              <div className="bg-white rounded-lg ">
                 <LoadingButton
                   size="large"
                   loading={true}
@@ -275,7 +274,7 @@ export default function resetPassword() {
                 ></LoadingButton>
               </div>
             ) : (
-              <div className="mt-24">
+              <div className="">
                 <Button text="RESET" icon={plus} type="white" />
               </div>
             )}
