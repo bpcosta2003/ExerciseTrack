@@ -107,7 +107,9 @@ export default function Login() {
       >
         <div className="max-[671px]:m-0 max-[671px]:h-full max-[471px]:rounded-none max-[600px]:w-full max-[600px]:justify-between  z-50 backdrop-blur-3xl bg-[#2c2e3083] p-8 w-[50%] rounded-lg flex flex-col justify-between max-[771px]:w-full max-[1024px]:overflow-scroll">
           <div className="flex flex-row items-center justify-between ">
-            <h1 className="text-5xl font-black">Sign In</h1>
+            <h1 className="text-5xl font-black max-[390px]:text-3xl">
+              Sign In
+            </h1>
             <Image src={running} alt="health" width={100} height={100} />
           </div>
           {success ? (
