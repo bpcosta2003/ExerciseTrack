@@ -277,6 +277,7 @@ export default function createWorkouts() {
                     key={weekday}
                     control={
                       <Checkbox
+                        sx={{color: "#ffffff21"}}
                         name={weekday}
                         color="warning"
                         icon={<EmojiEventsIcon />}

@@ -37,16 +37,3 @@ input:-webkit-autofill,
 input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
 }
-
-.css-59lb7q {
-  margin: 0px;
-}
-.css-1h7anqn {
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-}
-
-.css-nitxrn {
-  color: white;
-}

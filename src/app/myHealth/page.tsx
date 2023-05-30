@@ -279,6 +279,7 @@ export default function myHealth() {
           >
             <h1 className="text-3xl font-black mb-5">Gender</h1>
             <RadioGroup
+              sx={{flexDirection: "row", color: "white"}}
               aria-labelledby="demo-controlled-radio-buttons-group"
               name="controlled-radio-buttons-group"
               value={gender}

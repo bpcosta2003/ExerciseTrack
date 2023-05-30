@@ -257,6 +257,7 @@ export default function aiCreation() {
                                 type === "Male" ? <MaleIcon /> : <FemaleIcon />
                               }
                               className="text-white"
+                              sx={{color: "#ffffff21"}}
                             />
                           }
                           key={type}
@@ -279,6 +280,7 @@ export default function aiCreation() {
                 >
                   <h1 className="text-3xl font-black mb-5">Routine</h1>
                   <RadioGroup
+                    sx={{flexDirection: "row", color: "white"}}
                     aria-labelledby="demo-controlled-radio-buttons-group"
                     name="controlled-radio-buttons-group"
                     className="flex flex-row"
@@ -305,6 +307,7 @@ export default function aiCreation() {
                                 )
                               }
                               className="text-white"
+                              sx={{color: "#ffffff21"}}
                             />
                           }
                           key={type}
