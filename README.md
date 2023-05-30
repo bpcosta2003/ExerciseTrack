@@ -2,6 +2,7 @@
 </br>
 
 ![image](https://github.com/bpcosta2003/exercise-track-app/assets/69023428/43475a74-486c-4045-8b49-b30471044fd4)
+By [Bruno Costa](https://www.linkedin.com/in/bruno-costa-3238161b5/)
 
 </br>
 </br>
