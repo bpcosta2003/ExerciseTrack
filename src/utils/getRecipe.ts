@@ -2,12 +2,12 @@
 
 import axios from "axios";
 
-export default async function getRecipe(keyWord: string) {
+export default async function getRecipe(recipe: string) {
   const options = {
     method: "GET",
     url: "https://recipe-by-api-ninjas.p.rapidapi.com/v1/recipe",
     params: {
-      query: `${keyWord}`,
+      query: `${recipe}`,
     },
     headers: {
       "X-RapidAPI-Key": process.env.NEXT_PUBLIC_RAPID_API_KEY as string,

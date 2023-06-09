@@ -52,7 +52,7 @@ export default function ExerciseCard({
   return (
     <>
       <div
-        className=" relative bg-[#F5F3F4] w-56 h-56 max-[371px]:w-48 max-[371px]:h-48 rounded-t-lg transition-all overflow-hidden"
+        className=" shadow-lg relative bg-[#F5F3F4] w-56 h-56 max-[371px]:w-48 max-[371px]:h-48 rounded-t-lg transition-all overflow-hidden"
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       >

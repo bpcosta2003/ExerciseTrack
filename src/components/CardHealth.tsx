@@ -84,7 +84,7 @@ export default function CardHealth() {
           </div>
         </div>
       ) : (
-        <div className="bg-[#F5F3F4] overflow-y-hidden flex-row  w-full p-4 text-[#2B2D42] text-xl gap-5 transition-all  rounded-xl  flex justify-between items-center h-36 max-[371px]:justify-around max-[371px]:flex-col max-[371px]:h-72">
+        <div className="shadow-lg bg-[#F5F3F4] overflow-y-hidden flex-row  w-full p-4 text-[#2B2D42] text-xl gap-5 transition-all  rounded-xl  flex justify-between items-center h-36 max-[371px]:justify-around max-[371px]:flex-col max-[371px]:h-72">
           <div className="p-4 flex justify-between">
             <Image src={heartbeat} alt="health" width={150} height={150} />
           </div>

@@ -74,7 +74,7 @@ export default function Home() {
                 >
                   <div
                     className="w-full "
-                    style={{pointerEvents: "none", cursor: "not-allowed"}}
+                    // style={{pointerEvents: "none", cursor: "not-allowed"}}
                   >
                     <CardOpts title="Meals" icon={meal} />
                   </div>

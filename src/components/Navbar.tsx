@@ -198,7 +198,7 @@ export default function Navbar() {
         ""
       )}
 
-      <div className="transition-all w-full">
+      <div className="shadow-lg transition-all w-full">
         <div className="transition-all rounded-t-3xl max-[671px]:rounded-t-none flex flex-row justify-between gap-10">
           <div className="bg-[#2c2e30a9] backdrop-blur-[100px] w-full rounded-t-3xl max-[671px]:rounded-t-none flex flex-row justify-between items-center ">
             {isLoading ? (

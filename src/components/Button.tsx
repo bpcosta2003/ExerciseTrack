@@ -13,7 +13,7 @@ export default function Button({text, icon, type}: PropsButton) {
   const [createHover, setCreateHover] = useState(false);
 
   return (
-    <div className="w-full ">
+    <div className="shadow-lg w-full ">
       {type === "white" ? (
         <div
           onMouseEnter={() => setCreateHover(true)}

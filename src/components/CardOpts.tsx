@@ -19,7 +19,7 @@ export default function CardOpts({title, icon}: PropsCard) {
     <div
       onMouseEnter={() => setScale(1.5)}
       onMouseLeave={() => setScale(1)}
-      className="cursor-pointer transition-all relative bg-[#E5383B] rounded-xl h-36 flex items-center justify-center hover:opacity-90 "
+      className="shadow-lg cursor-pointer transition-all relative bg-[#E5383B] rounded-xl h-36 flex items-center justify-center hover:opacity-90 "
     >
       <div className="transition-all font-black text-3xl z-10 max-[371px]:text-xl">
         <h1>{title}</h1>

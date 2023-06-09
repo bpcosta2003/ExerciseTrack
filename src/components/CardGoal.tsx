@@ -188,9 +188,9 @@ export default function CardGoal() {
           </div>
         </div>
       ) : (
-        <div className="transition-all rounded-xl flex flex-col w-full gap-5 justify-between items-center h-36  max-[371px]:flex-col max-[371px]:h-72">
+        <div className="cursor-pointer transition-all rounded-xl flex flex-col w-full gap-5 justify-between items-center h-36  max-[371px]:flex-col max-[371px]:h-72">
           {withoutData ? (
-            <div className=" bg-[#2c2e3083] overflow-y-hidden flex-row  w-full p-4 text-[#bbbbbb9a] text-xl gap-5 transition-all  rounded-xl  flex justify-between items-center h-36 max-[371px]:justify-around max-[371px]:flex-col max-[371px]:h-72">
+            <div className="shadow-lg  bg-[#2c2e3083] overflow-y-hidden flex-row  w-full p-4 text-[#bbbbbb9a] text-xl gap-5 transition-all  rounded-xl  flex justify-between items-center h-36 max-[371px]:justify-around max-[371px]:flex-col max-[371px]:h-72">
               <div className="p-4 flex justify-between opacity-60">
                 <Image src={goal} alt="health" width={100} height={100} />
               </div>
@@ -199,7 +199,7 @@ export default function CardGoal() {
                 className="hover:opacity-70 transition-all p-4 pr-8 flex flex-col max-[371px]:flex-row max-[371px]:pr-4 max-[371px]:pb-12 gap-3 text-xl font-black text-end "
                 legacyBehavior
               >
-                <h1 className="max-[371px]:text-center text-[1em]">
+                <h1 className="max-[371px]:text-center text-[1em] max-[471px]:text-[0.7em] mr-10 max-[500px]:text-center max-[371px]:mr-0">
                   Your goals will be shown here!
                 </h1>
               </Link>
