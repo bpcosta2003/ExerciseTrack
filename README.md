@@ -10,7 +10,7 @@ By [Bruno Costa](https://www.linkedin.com/in/bruno-costa-3238161b5/)
 ## Project 🖱️
 
 <h3>Project aimed at creating your workouts!</h3>
-<h3>You can have a 100% customizable workouts, updating weight goals, having AI advices and more!</h3>
+<h3>You can have a 100% customizable workouts, updating weight goals, having AI advices, see recipes and more!</h3>
 
 </br>
 </br>
