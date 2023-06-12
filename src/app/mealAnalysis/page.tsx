@@ -429,7 +429,7 @@ export default function myGoals() {
                               )}
                               className="shadow-lg transition-all bg-[#2c2e30] hover:bg-[#ff929839] disabled:bg-[#ff6c736c]  p-2 rounded-full flex flex-row justify-center items-center"
                             >
-                              <FavoriteIcon className="text-[#ff9298b0] text-sm" />
+                              <FavoriteIcon className="text-[#ff9298b0] text-[14px]" />
                             </button>
                             {showCaloriesInfos === false ? (
                               <button
@@ -442,7 +442,7 @@ export default function myGoals() {
                                 type="button"
                                 className="shadow-lg transition-all bg-[#2c2e30] hover:bg-[#2c2e30c7]  p-2  rounded-full flex flex-row justify-center items-center"
                               >
-                                <WhatshotRoundedIcon className="text-[#ffbe92af] text-sm" />
+                                <WhatshotRoundedIcon className="text-[#ffbe92af] text-[14px]" />
                               </button>
                             ) : (
                               <>
@@ -452,7 +452,7 @@ export default function myGoals() {
                                     type="button"
                                     className="shadow-lg transition-all bg-[#ffa86e28] hover:bg-[#ffa86e1a] p-2  rounded-full flex flex-row justify-center items-center"
                                   >
-                                    <WhatshotRoundedIcon className="text-[#ffbe92af] text-sm" />
+                                    <WhatshotRoundedIcon className="text-[#ffbe92af] text-[14px]" />
                                   </button>
                                 ) : (
                                   <button
@@ -465,7 +465,7 @@ export default function myGoals() {
                                     type="button"
                                     className="shadow-lg transition-all bg-[#2c2e30] hover:bg-[#2c2e30c7]  p-2  rounded-full flex flex-row justify-center items-center"
                                   >
-                                    <WhatshotRoundedIcon className="text-[#ffbe92af] text-sm" />
+                                    <WhatshotRoundedIcon className="text-[#ffbe92af] text-[14px]" />
                                   </button>
                                 )}
                               </>
@@ -884,7 +884,7 @@ export default function myGoals() {
                               type="button"
                               className="shadow-lg transition-all bg-[#2c2e30] hover:bg-[#ff929839] p-2 rounded-full flex flex-row justify-center items-center"
                             >
-                              <RemoveCircleIcon className="text-[#ff9298b0] text-sm" />
+                              <RemoveCircleIcon className="text-[#ff9298b0] text-[14px]" />
                             </button>
                             {showCaloriesInfos === false ? (
                               <button
@@ -897,7 +897,7 @@ export default function myGoals() {
                                 type="button"
                                 className="shadow-lg transition-all bg-[#2c2e30] hover:bg-[#2c2e30c7]  p-2  rounded-full flex flex-row justify-center items-center"
                               >
-                                <WhatshotRoundedIcon className="text-[#ffbe92af] text-sm" />
+                                <WhatshotRoundedIcon className="text-[#ffbe92af] text-[14px]" />
                               </button>
                             ) : (
                               <>
@@ -907,7 +907,7 @@ export default function myGoals() {
                                     type="button"
                                     className="shadow-lg transition-all bg-[#ffa86e28] hover:bg-[#ffa86e1a] p-2  rounded-full flex flex-row justify-center items-center"
                                   >
-                                    <WhatshotRoundedIcon className="text-[#ffbe92af] text-sm" />
+                                    <WhatshotRoundedIcon className="text-[#ffbe92af] text-[14px]" />
                                   </button>
                                 ) : (
                                   <button
@@ -920,7 +920,7 @@ export default function myGoals() {
                                     type="button"
                                     className="shadow-lg transition-all bg-[#2c2e30] hover:bg-[#2c2e30c7]  p-2  rounded-full flex flex-row justify-center items-center"
                                   >
-                                    <WhatshotRoundedIcon className="text-[#ffbe92af] text-sm" />
+                                    <WhatshotRoundedIcon className="text-[#ffbe92af] text-[14px]" />
                                   </button>
                                 )}
                               </>
