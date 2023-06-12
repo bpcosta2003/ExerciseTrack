@@ -2,7 +2,7 @@
 "use client";
 import {Inter} from "next/font/google";
 import {ReactNode} from "react";
-import "../styles/input.css";
+import "../styles/globals.css";
 
 const inter = Inter({weight: "700", subsets: ["latin"]});
 
