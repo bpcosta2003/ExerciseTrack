@@ -52,12 +52,12 @@ export default function ExerciseCard({
   return (
     <>
       <div
-        className=" shadow-lg relative bg-[#F5F3F4] w-56 h-56 max-[371px]:w-48 max-[371px]:h-48 rounded-t-lg transition-all overflow-hidden"
+        className=" shadow-lg relative bg-[#F5F3F4] w-56 h-56 max-ssm:w-48 max-ssm:h-48 rounded-t-lg transition-all overflow-hidden"
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       >
         {gifUrl ? (
-          <div className="transition-all absolute w-56 h-56 max-[371px]:w-48 max-[371px]:h-48 rounded-t-lg flex items-center justify-center">
+          <div className="transition-all absolute w-56 h-56 max-ssm:w-48 max-ssm:h-48 rounded-t-lg flex items-center justify-center">
             <Image
               src={`${gifUrl}`}
               alt="gifExercise"
@@ -67,7 +67,7 @@ export default function ExerciseCard({
             />
           </div>
         ) : (
-          <div className="text-black absolute transition-all w-56 h-full max-[371px]:w-48 max-[371px]:h-full rounded-t-lg flex items-center justify-center p-2">
+          <div className="text-black absolute transition-all w-56 h-full max-ssm:w-48 max-ssm:h-full rounded-t-lg flex items-center justify-center p-2">
             <p className="text-center">{name}</p>
           </div>
         )}
@@ -76,7 +76,7 @@ export default function ExerciseCard({
           <button
             type="button"
             onClick={handleOpen}
-            className="transition-all hover:bg-[#2b2d4270] backdrop-blur-sm absolute w-56 h-56 max-[371px]:w-48 max-[371px]:h-48 rounded-t-lg flex items-center justify-center"
+            className="transition-all hover:bg-[#2b2d4270] backdrop-blur-sm absolute w-56 h-56 max-ssm:w-48 max-ssm:h-48 rounded-t-lg flex items-center justify-center"
           >
             <Image src={info} alt="remove" width={100} height={100} />
           </button>
@@ -97,21 +97,21 @@ export default function ExerciseCard({
           }}
         >
           <Fade in={open}>
-            <div className="absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2 max-w-[30rem] backdrop-blur-3xl bg-[#2c2e30a6] shadow-lg flex flex-col justify-between items-start gap-4 rounded-t-lg max-[481px]:rounded-t-[0] rounded-b-lg max-[481px]:rounded-b-[0] max-[971px]:w-[80%] max-[481px]:w-full text-[#adadad] p-5">
+            <div className="absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2 max-w-[30rem] backdrop-blur-3xl bg-[#2c2e30a6] shadow-lg flex flex-col justify-between items-start gap-4 rounded-t-lg max-2ssm:rounded-t-[0] rounded-b-lg max-2ssm:rounded-b-[0] max-lg:w-[80%] max-2ssm:w-full text-[#adadad] p-5">
               <div className="transition-all w-full h-56 rounded-lg flex items-center justify-center ">
                 {gifUrl ? (
                   <img
                     src={`${gifUrl}`}
                     alt="gifExercise"
-                    className="rounded-lg w-full max-[481px]:rounded-t-[0]"
+                    className="rounded-lg w-full max-2ssm:rounded-t-[0]"
                   />
                 ) : (
-                  <div className="rounded-lg w-full h-full max-[481px]:rounded-t-[0] overflow-y-scroll overflow-x-hidden">
+                  <div className="rounded-lg w-full h-full max-2ssm:rounded-t-[0] overflow-y-scroll overflow-x-hidden">
                     <p>{instructions}</p>
                   </div>
                 )}
               </div>
-              <div className="  max-[481px]:rounded-b-[0] flex flex-col gap-5 w-full">
+              <div className="  max-2ssm:rounded-b-[0] flex flex-col gap-5 w-full">
                 <div className="flex flex-col gap-5 justify-center">
                   <h1 className="text-3xl font-black text-[#ffffff] uppercase">
                     {name}

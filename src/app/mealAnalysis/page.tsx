@@ -246,10 +246,10 @@ export default function myGoals() {
   }, [getLoggedUserData]);
 
   return (
-    <div className="transition-all relative z-10 before:block before:absolute before:w-[50%] before:rounded-t-full before:h-[50%] before:bottom-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-b-full after:h-[50%] after:w-[50%] after:top-0 after:right-0 after:bg-[#E5383B] after:z-0 flex flex-col justify-between items-center  text-[#161A1D] max-[600px]:flex-col h-screen">
+    <div className="transition-all relative z-10 before:block before:absolute before:w-[50%] before:rounded-t-full before:h-[50%] before:bottom-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-b-full after:h-[50%] after:w-[50%] after:top-0 after:right-0 after:bg-[#E5383B] after:z-0 flex flex-col justify-between items-center  text-[#161A1D] max-sm:flex-col h-screen">
       {favoriteStep === 0 ? (
-        <div className="transition-all backdrop-blur-3xl z-50 m-10  bg-[#2c2e3083] text-white w-[50%] max-[1024px]:w-[80%]  max-[1024px]:overflow-scroll rounded-t-3xl rounded-xl max-[600px]:rounded-none max-[600px]:w-full h-screen flex flex-col gap-5 max-[671px]:m-0 justify-start">
-          <div className="bg-[#2c2e30a9] backdrop-blur-[100px] w-full  rounded-t-3xl max-[671px]:rounded-t-none flex flex-row max-[471px]:flex-col justify-between items-center p-10 gap-10">
+        <div className="transition-all backdrop-blur-3xl z-50 m-10  bg-[#2c2e3083] text-white w-[50%] max-lg:w-[80%]  max-lg:overflow-scroll rounded-t-3xl rounded-xl max-sm:rounded-none max-sm:w-full h-screen flex flex-col gap-5 max-sm:m-0 justify-start">
+          <div className="bg-[#2c2e30a9] backdrop-blur-[100px] w-full  rounded-t-3xl max-sm:rounded-t-none flex flex-row max-2ssm:flex-col justify-between items-center p-10 gap-10">
             <h1 className="text-5xl font-black ">Meals</h1>
 
             <form className="w-full" onSubmit={(e) => generateResponse(e)}>
@@ -286,13 +286,13 @@ export default function myGoals() {
             </div>
 
             {withoutInfo ? (
-              <div className="shadow-lg bg-[#2c2e3083] overflow-y-hidden flex-row  w-full p-4 text-[#bbbbbb9a] text-xl gap-5 transition-all  rounded-xl  flex justify-between items-center h-36 max-[371px]:justify-around max-[371px]:flex-col max-[371px]:h-72">
+              <div className="shadow-lg bg-[#2c2e3083] overflow-y-hidden flex-row  w-full p-4 text-[#bbbbbb9a] text-xl gap-5 transition-all  rounded-xl  flex justify-between items-center h-36 max-ssm:justify-around max-ssm:flex-col max-ssm:h-72">
                 {doNotExist ? (
                   <>
                     <div className="p-4 flex justify-between opacity-60">
                       <Image src={book} alt="health" width={100} height={100} />
                     </div>
-                    <h1 className="max-[371px]:text-center text-[1em] max-[471px]:text-[0.7em] mr-10 max-[500px]:text-center max-[371px]:mr-0">
+                    <h1 className="max-ssm:text-center text-[1em] max-2ssm:text-[0.7em] mr-10 max-2ssm:text-center max-ssm:mr-0">
                       No recipes found!
                     </h1>
                   </>
@@ -306,7 +306,7 @@ export default function myGoals() {
                         height={100}
                       />
                     </div>
-                    <h1 className="max-[371px]:text-center text-[1em] max-[471px]:text-[0.7em] mr-10 max-[500px]:text-center max-[371px]:mr-0">
+                    <h1 className="max-ssm:text-center text-[1em] max-2ssm:text-[0.7em] mr-10 max-2ssm:text-center max-ssm:mr-0">
                       The recipes will be shown here!
                     </h1>
                   </>
@@ -316,7 +316,7 @@ export default function myGoals() {
               <div className="overflow-scroll overflow-x-hidden flex flex-col h-[50vh]  rounded-xl">
                 {loading ? (
                   <div className=" flex flex-col gap-5 overflow-y-hidden overflow-scroll ">
-                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-[500]:h-auto ">
+                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-2ssm:h-auto ">
                       <div className=" w-full p-8 flex flex-col gap-10 ">
                         <Skeleton
                           variant="text"
@@ -347,7 +347,7 @@ export default function myGoals() {
                         </div>
                       </div>
                     </div>
-                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-[500]:h-auto ">
+                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-2ssm:h-auto ">
                       <div className=" w-full p-8 flex flex-col gap-10 ">
                         <Skeleton
                           variant="text"
@@ -378,7 +378,7 @@ export default function myGoals() {
                         </div>
                       </div>
                     </div>
-                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-[500]:h-auto ">
+                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-2ssm:h-auto ">
                       <div className=" w-full p-8 flex flex-col gap-10 ">
                         <Skeleton
                           variant="text"
@@ -473,7 +473,7 @@ export default function myGoals() {
                           </div>
 
                           <div className="flex flex-col gap-5 justify-center pl-8 pr-8 pt-8">
-                            <h1 className="text-3xl font-black text-[#ffffff] uppercase max-[600px]:text-xl max-[600px]:w-[90%]">
+                            <h1 className="text-3xl font-black text-[#ffffff] uppercase max-sm:text-xl max-sm:w-[90%]">
                               {item.title}
                             </h1>
                           </div>
@@ -492,8 +492,8 @@ export default function myGoals() {
                             <>
                               {loadingNutrients &&
                               item.title === actualMealSelected ? (
-                                <div className="transition-all bg-[#2c2e30d6] h-[12rem] max-[500px]:h-[20rem] flex justify-center items-center">
-                                  <div className=" w-full p-4 flex flex-row gap-5 max-[500px]:flex-col justify-between max-[500px]:justify-center items-center">
+                                <div className="transition-all bg-[#2c2e30d6] h-[12rem] max-2ssm:h-[20rem] flex justify-center items-center">
+                                  <div className=" w-full p-4 flex flex-row gap-5 max-2ssm:flex-col justify-between max-2ssm:justify-center items-center">
                                     <Skeleton
                                       variant="circular"
                                       sx={{fontSize: "1rem"}}
@@ -590,7 +590,7 @@ export default function myGoals() {
                                     return (
                                       <h1
                                         key={index}
-                                        className=" capitalize text-sm max-[500px]:text-xs  font-light text-[#adadad] bg-[#9e9e9e42] p-2 pl-4 pr-4 rounded-full"
+                                        className=" capitalize text-sm max-2ssm:text-xs  font-light text-[#adadad] bg-[#9e9e9e42] p-2 pl-4 pr-4 rounded-full"
                                       >
                                         {item}
                                       </h1>
@@ -655,7 +655,7 @@ export default function myGoals() {
                             </h1>
                             {showServingInfos &&
                             item.title === actualMealSelected ? (
-                              <h1 className="capitalize text-sm max-[500px]:text-xs font-light text-[#adadad] bg-[#9e9e9e42] p-2 pl-4 pr-4 rounded-full">
+                              <h1 className="capitalize text-sm max-2ssm:text-xs font-light text-[#adadad] bg-[#9e9e9e42] p-2 pl-4 pr-4 rounded-full">
                                 <span>{item.servings}</span>
                               </h1>
                             ) : (
@@ -716,7 +716,7 @@ export default function myGoals() {
                             </h1>
                             {showInstructionsInfos &&
                             item.title === actualMealSelected ? (
-                              <h1 className="text-sm font-light text-[#adadad] max-[500px]:text-base">
+                              <h1 className="text-sm font-light text-[#adadad] max-2ssm:text-base">
                                 {item.instructions}
                               </h1>
                             ) : (
@@ -732,7 +732,7 @@ export default function myGoals() {
             )}
           </div>
 
-          <div className="flex flex-row gap-5 justify-between max-[688px]:flex-col w-full p-10 pt-4 mt-auto">
+          <div className="flex flex-row gap-5 justify-between max-sm:flex-col w-full p-10 pt-4 mt-auto">
             <Link href="/home" className="z-10 w-full" legacyBehavior>
               <div className="z-50  w-full">
                 <Button text="Back" icon={back} type="red" />
@@ -741,8 +741,8 @@ export default function myGoals() {
           </div>
         </div>
       ) : (
-        <div className="transition-all backdrop-blur-3xl z-50 m-10  bg-[#2c2e3083] text-white w-[50%] max-[1024px]:w-[80%]  max-[1024px]:overflow-scroll rounded-t-3xl rounded-xl max-[600px]:rounded-none max-[600px]:w-full h-screen flex flex-col gap-5 max-[671px]:m-0 justify-start">
-          <div className="bg-[#2c2e30a9] backdrop-blur-[100px] w-full  rounded-t-3xl max-[671px]:rounded-t-none flex flex-row max-[471px]:flex-col justify-between items-start p-10 gap-10">
+        <div className="transition-all backdrop-blur-3xl z-50 m-10  bg-[#2c2e3083] text-white w-[50%] max-lg:w-[80%]  max-lg:overflow-scroll rounded-t-3xl rounded-xl max-sm:rounded-none max-sm:w-full h-screen flex flex-col gap-5 max-sm:m-0 justify-start">
+          <div className="bg-[#2c2e30a9] backdrop-blur-[100px] w-full  rounded-t-3xl max-sm:rounded-t-none flex flex-row max-2ssm:flex-col justify-between items-start p-10 gap-10">
             <h1 className="text-5xl font-black ">Favorite meals</h1>
           </div>
 
@@ -759,12 +759,12 @@ export default function myGoals() {
             </div>
 
             {favoriteMealInfos.length === 0 ? (
-              <div className="shadow-lg bg-[#2c2e3083] overflow-y-hidden flex-row  w-full p-4 text-[#bbbbbb9a] text-xl gap-5 transition-all  rounded-xl  flex justify-between items-center h-36 max-[371px]:justify-around max-[371px]:flex-col max-[371px]:h-72">
+              <div className="shadow-lg bg-[#2c2e3083] overflow-y-hidden flex-row  w-full p-4 text-[#bbbbbb9a] text-xl gap-5 transition-all  rounded-xl  flex justify-between items-center h-36 max-ssm:justify-around max-ssm:flex-col max-ssm:h-72">
                 <>
                   <div className="p-4 flex justify-between opacity-60">
                     <Image src={goal} alt="health" width={100} height={100} />
                   </div>
-                  <h1 className="max-[371px]:text-center text-[1em] max-[471px]:text-[0.7em] mr-10 max-[500px]:text-center max-[371px]:mr-0">
+                  <h1 className="max-ssm:text-center text-[1em] max-2ssm:text-[0.7em] mr-10 max-2ssm:text-center max-ssm:mr-0">
                     You don&apos;t have favorite meals!
                   </h1>
                 </>
@@ -773,7 +773,7 @@ export default function myGoals() {
               <div className="overflow-scroll overflow-x-hidden flex flex-col h-[50vh] rounded-xl">
                 {loading ? (
                   <div className=" flex flex-col gap-5 overflow-y-hidden overflow-scroll ">
-                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-[500]:h-auto ">
+                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-2ssm:h-auto ">
                       <div className=" w-full p-8 flex flex-col gap-10 ">
                         <Skeleton
                           variant="text"
@@ -804,7 +804,7 @@ export default function myGoals() {
                         </div>
                       </div>
                     </div>
-                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-[500]:h-auto ">
+                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-2ssm:h-auto ">
                       <div className=" w-full p-8 flex flex-col gap-10 ">
                         <Skeleton
                           variant="text"
@@ -835,7 +835,7 @@ export default function myGoals() {
                         </div>
                       </div>
                     </div>
-                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-[500]:h-auto ">
+                    <div className="transition-all bg-[#2c2e30d6] rounded-xl  flex justify-start items-center h-[40rem] max-2ssm:h-auto ">
                       <div className=" w-full p-8 flex flex-col gap-10 ">
                         <Skeleton
                           variant="text"
@@ -928,7 +928,7 @@ export default function myGoals() {
                           </div>
 
                           <div className="flex flex-col gap-5 justify-center pl-8 pr-8 pt-8">
-                            <h1 className="text-3xl font-black text-[#ffffff] uppercase max-[600px]:text-xl max-[600px]:w-[90%]">
+                            <h1 className="text-3xl font-black text-[#ffffff] uppercase max-sm:text-xl max-sm:w-[90%]">
                               {item.title}
                             </h1>
                           </div>
@@ -947,8 +947,8 @@ export default function myGoals() {
                             <>
                               {loadingNutrients &&
                               item.title === actualMealSelected ? (
-                                <div className="transition-all bg-[#2c2e30d6] h-[12rem] max-[500px]:h-[20rem] flex justify-center items-center">
-                                  <div className=" w-full p-4 flex flex-row gap-5 max-[500px]:flex-col justify-between max-[500px]:justify-center items-center">
+                                <div className="transition-all bg-[#2c2e30d6] h-[12rem] max-2ssm:h-[20rem] flex justify-center items-center">
+                                  <div className=" w-full p-4 flex flex-row gap-5 max-2ssm:flex-col justify-between max-2ssm:justify-center items-center">
                                     <Skeleton
                                       variant="circular"
                                       sx={{fontSize: "1rem"}}
@@ -1045,7 +1045,7 @@ export default function myGoals() {
                                     return (
                                       <h1
                                         key={index}
-                                        className=" capitalize text-sm max-[500px]:text-xs  font-light text-[#adadad] bg-[#9e9e9e42] p-2 pl-4 pr-4 rounded-full"
+                                        className=" capitalize text-sm max-2ssm:text-xs  font-light text-[#adadad] bg-[#9e9e9e42] p-2 pl-4 pr-4 rounded-full"
                                       >
                                         {item}
                                       </h1>
@@ -1110,7 +1110,7 @@ export default function myGoals() {
                             </h1>
                             {showServingInfos &&
                             item.title === actualMealSelected ? (
-                              <h1 className="capitalize text-sm max-[500px]:text-xs font-light text-[#adadad] bg-[#9e9e9e42] p-2 pl-4 pr-4 rounded-full">
+                              <h1 className="capitalize text-sm max-2ssm:text-xs font-light text-[#adadad] bg-[#9e9e9e42] p-2 pl-4 pr-4 rounded-full">
                                 <span>{item.servings}</span>
                               </h1>
                             ) : (
@@ -1171,7 +1171,7 @@ export default function myGoals() {
                             </h1>
                             {showInstructionsInfos &&
                             item.title === actualMealSelected ? (
-                              <h1 className="text-sm font-light text-[#adadad] max-[500px]:text-base">
+                              <h1 className="text-sm font-light text-[#adadad] max-2ssm:text-base">
                                 {item.instructions}
                               </h1>
                             ) : (
@@ -1187,7 +1187,7 @@ export default function myGoals() {
             )}
           </div>
 
-          <div className="flex flex-row gap-5 justify-between max-[688px]:flex-col w-full p-10 pt-4 mt-auto">
+          <div className="flex flex-row gap-5 justify-between max-sm:flex-col w-full p-10 pt-4 mt-auto">
             <Link href="/home" className="z-10 w-full" legacyBehavior>
               <div className="z-50  w-full">
                 <Button text="Back" icon={back} type="red" />

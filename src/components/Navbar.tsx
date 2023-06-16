@@ -199,8 +199,8 @@ export default function Navbar() {
       )}
 
       <div className="shadow-lg transition-all w-full">
-        <div className="transition-all rounded-t-3xl max-[671px]:rounded-t-none flex flex-row justify-between gap-10">
-          <div className="bg-[#2c2e30a9] backdrop-blur-[100px] w-full rounded-t-3xl max-[671px]:rounded-t-none flex flex-row justify-between items-center ">
+        <div className="transition-all rounded-t-3xl max-sm:rounded-t-none flex flex-row justify-between gap-10">
+          <div className="bg-[#2c2e30a9] backdrop-blur-[100px] w-full rounded-t-3xl max-sm:rounded-t-none flex flex-row justify-between items-center ">
             {isLoading ? (
               <div className="flex flex-row justify-center items-center gap-5 p-4 w-full">
                 <Skeleton variant="circular" className="bg-[#ffffff36]">
@@ -249,7 +249,7 @@ export default function Navbar() {
 
             <button
               onClick={handleLogout}
-              className="bg-[#63646479] h-full w-16 rounded-tr-3xl max-[671px]:rounded-tr-none hover:bg-[#e5383b29] transition-all"
+              className="bg-[#63646479] h-full w-16 rounded-tr-3xl max-sm:rounded-tr-none hover:bg-[#e5383b29] transition-all"
             >
               <LogoutRoundedIcon />
             </button>

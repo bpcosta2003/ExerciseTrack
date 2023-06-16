@@ -153,10 +153,10 @@ export default function myHealth() {
 
   return (
     <form
-      className="transition-all relative z-10 before:block before:absolute before:w-[50%] before:rounded-t-full before:h-[50%] before:bottom-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-b-full after:h-[50%] after:w-[50%] after:top-0 after:right-0 after:bg-[#E5383B] after:z-0 flex flex-col justify-between items-center text-[#161A1D] max-[600px]:flex-col h-screen"
+      className="transition-all relative z-10 before:block before:absolute before:w-[50%] before:rounded-t-full before:h-[50%] before:bottom-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-b-full after:h-[50%] after:w-[50%] after:top-0 after:right-0 after:bg-[#E5383B] after:z-0 flex flex-col justify-between items-center text-[#161A1D] max-sm:flex-col h-screen"
       onSubmit={(e) => handleHealthStatusSubmit(e)}
     >
-      <div className="transition-all backdrop-blur-3xl z-50 m-10 p-10 bg-[#2c2e3083] text-white w-[50%] max-[1024px]:w-[70%] max-[1024px]:overflow-scroll rounded-xl max-[600px]:rounded-none max-[600px]:w-full h-screen flex flex-col gap-10 justify-start max-[671px]:m-0">
+      <div className="transition-all backdrop-blur-3xl z-50 m-10 p-10 bg-[#2c2e3083] text-white w-[50%] max-lg:w-[70%] max-lg:overflow-scroll rounded-xl max-sm:rounded-none max-sm:w-full h-screen flex flex-col gap-10 justify-start max-sm:m-0">
         <div className="flex flex-row items-center justify-between ">
           <h1 className="text-3xl font-black w-full">
             {success ? (
@@ -179,7 +179,7 @@ export default function myHealth() {
             alt="health"
             width={90}
             height={90}
-            className="max-[671px]:hidden"
+            className="max-sm:hidden"
           />
         </div>
 

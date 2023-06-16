@@ -27,7 +27,7 @@ export default function NutrientsInfos({
   nextNutrientName,
 }: PropsCard) {
   return (
-    <div className="transition-all relative flex flex-row justify-between items-center gap-5 w-full max-[500px]:flex-col">
+    <div className="transition-all relative flex flex-row justify-between items-center gap-5 w-full max-2ssm:flex-col">
       <div className="p-4 flex flex-row items-center gap-3 justify-between ">
         <Image
           src={image as StaticImageData}
@@ -36,16 +36,16 @@ export default function NutrientsInfos({
           height={100}
         />
       </div>
-      <p className=" absolute bottom-0 right-0 text-[4.5rem] max-[500px]:right-auto max-[500px]:text-[2.5rem] opacity-20 p-3 mb-4 rounded-full  ">
+      <p className=" absolute bottom-0 right-0 text-[4.5rem] max-2ssm:right-auto max-2ssm:text-[2.5rem] opacity-20 p-3 mb-4 rounded-full  ">
         {nutrientName}
       </p>
       <div className="flex flex-col justify-end items-end gap-10 w-full mt-[1.5rem]">
-        <h1 className="text-end w-full text-[3em] mr-10 mb-[5rem] max-[500px]:text-center max-[500px]:mr-0 max-[500px]:text-[2em]">
+        <h1 className="text-end w-full text-[3em] mr-10 mb-[5rem] max-2ssm:text-center max-2ssm:mr-0 max-2ssm:text-[2em]">
           {nutrientValue?.toFixed(1)}
           {nutrientName === "Cal." ? "" : "g"}
         </h1>
 
-        <div className="absolute w-full flex items-center justify-start max-[500px]:justify-center bottom-0 left-0 mr-10 max-[500px]:top-20 max-[500px]:bottom-auto max-[500px]:ml-auto max-[500px]:mr-auto">
+        <div className="absolute w-full flex items-center justify-start max-2ssm:justify-center bottom-0 left-0 mr-10 max-2ssm:top-20 max-2ssm:bottom-auto max-2ssm:ml-auto max-2ssm:mr-auto">
           <button
             onClick={functionNextStep}
             type="button"

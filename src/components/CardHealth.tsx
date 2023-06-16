@@ -52,7 +52,7 @@ export default function CardHealth() {
   return (
     <div>
       {isLoading ? (
-        <div className="transition-all bg-[#2c2e3083] rounded-xl  flex justify-between items-center h-36 max-[371px]:justify-around max-[371px]:flex-col max-[371px]:h-64">
+        <div className="transition-all bg-[#2c2e3083] rounded-xl  flex justify-between items-center h-36 max-ssm:justify-around max-ssm:flex-col max-ssm:h-64">
           <div className="p-4 ml-4 flex justify-between">
             <Skeleton
               variant="circular"
@@ -62,7 +62,7 @@ export default function CardHealth() {
               className="bg-[#ffffff36] w-full"
             />
           </div>
-          <div className="w-[40%] p-4 pr-8 flex flex-col max-[371px]:flex-row max-[371px]:pr-4 max-[371px]:pb-12 gap-3 text-xl font-black text-end text-[#2B2D42]">
+          <div className="w-[40%] p-4 pr-8 flex flex-col max-ssm:flex-row max-ssm:pr-4 max-ssm:pb-12 gap-3 text-xl font-black text-end text-[#2B2D42]">
             <Skeleton
               variant="text"
               sx={{fontSize: "1rem"}}
@@ -84,12 +84,12 @@ export default function CardHealth() {
           </div>
         </div>
       ) : (
-        <div className="shadow-lg bg-[#F5F3F4] overflow-y-hidden flex-row  w-full p-4 text-[#2B2D42] text-xl gap-5 transition-all  rounded-xl  flex justify-between items-center h-36 max-[371px]:justify-around max-[371px]:flex-col max-[371px]:h-72">
+        <div className="shadow-lg bg-[#F5F3F4] overflow-y-hidden flex-row  w-full p-4 text-[#2B2D42] text-xl gap-5 transition-all  rounded-xl  flex justify-between items-center h-36 max-ssm:justify-around max-ssm:flex-col max-ssm:h-72">
           <div className="p-4 flex justify-between">
             <Image src={heartbeat} alt="health" width={150} height={150} />
           </div>
           {withoutData === false ? (
-            <div className="p-4 pr-8 flex flex-col max-[371px]:flex-row max-[371px]:pr-4 max-[371px]:pb-12 gap-3 text-xl font-black text-end text-[#2B2D42]">
+            <div className="p-4 pr-8 flex flex-col max-ssm:flex-row max-ssm:pr-4 max-ssm:pb-12 gap-3 text-xl font-black text-end text-[#2B2D42]">
               <h1>{age}y</h1>
               <h1>{weight}kg</h1>
               <h1>{height}cm</h1>
@@ -97,10 +97,10 @@ export default function CardHealth() {
           ) : (
             <Link
               href="/myHealth"
-              className=" hover:opacity-70 transition-all p-4 pr-8 flex flex-col max-[371px]:flex-row max-[371px]:pr-4 max-[371px]:pb-12 gap-3 text-xl font-black text-end "
+              className=" hover:opacity-70 transition-all p-4 pr-8 flex flex-col max-ssm:flex-row max-ssm:pr-4 max-ssm:pb-12 gap-3 text-xl font-black text-end "
               legacyBehavior
             >
-              <h1 className="max-[371px]:text-center text-[1em] max-[471px]:text-[0.7em] hover:text-[#2b2d42a6] transition-all">
+              <h1 className="max-ssm:text-center text-[1em] max-2ssm:text-[0.7em] hover:text-[#2b2d42a6] transition-all">
                 Welcome! Insert your health information
               </h1>
             </Link>

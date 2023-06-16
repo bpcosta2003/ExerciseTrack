@@ -87,14 +87,14 @@ export default function Login() {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="relative flex flex-col items-center justify-center w-full h-screen p-14 max-w-5xl m-auto gap-10 max-[471px]:p-0 [371px]:w-full before:block before:absolute before:w-[50%] before:rounded-t-full before:h-[40%] before:bottom-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-b-full after:h-[40%] after:w-[50%] after:top-0 after:right-0 after:bg-[#E5383B] after:z-0">
+      <div className="relative flex flex-col items-center justify-center w-full h-screen p-14 max-w-5xl m-auto gap-10 max-2ssm:p-0 [371px]:w-full before:block before:absolute before:w-[50%] before:rounded-t-full before:h-[40%] before:bottom-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-b-full after:h-[40%] after:w-[50%] after:top-0 after:right-0 after:bg-[#E5383B] after:z-0">
         <div className="z-50 bg-[#2c2e3083] w-screen flex items-center justify-center flex-col p-12 backdrop-blur-3xl">
-          <div className="flex flex-row justify-center items-center gap-5 max-[371px]:p-2 w-full h-full">
+          <div className="flex flex-row justify-center items-center gap-5 max-ssm:p-2 w-full h-full">
             <Image src={Logo} alt="Exercise Track" width={500} height={100} />
           </div>
         </div>
         <a href="#signIn" className="absolute bottom-0 left-0 right-0 pb-7">
-          <div className="flex flex-col justify-center items-center gap-5 max-[371px]:p-5 max-[371px]:pt-6 ">
+          <div className="flex flex-col justify-center items-center gap-5 max-ssm:p-5 max-ssm:pt-6 ">
             <Image src={arrowDown} alt="Login down" width={50} height={50} />
             <p>Sign In</p>
           </div>
@@ -103,13 +103,11 @@ export default function Login() {
       <form
         onSubmit={handleSignIn}
         id="signIn"
-        className=" relative flex flex-col items-center justify-center w-full h-screen p-14 max-w-5xl m-auto gap-10  max-[471px]:p-0 [371px]:w-full before:block before:absolute before:w-[50%] before:rounded-b-full before:h-[40%] before:top-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-t-full after:h-[40%] after:w-[50%] after:bottom-0 after:right-0 after:bg-[#E5383B] after:z-0"
+        className=" relative flex flex-col items-center justify-center w-full h-screen p-14 max-w-5xl m-auto gap-10  max-2ssm:p-0 [371px]:w-full before:block before:absolute before:w-[50%] before:rounded-b-full before:h-[40%] before:top-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-t-full after:h-[40%] after:w-[50%] after:bottom-0 after:right-0 after:bg-[#E5383B] after:z-0"
       >
-        <div className="max-[671px]:m-0 max-[671px]:h-full max-[471px]:rounded-none max-[600px]:w-full max-[600px]:justify-between  z-50 backdrop-blur-3xl bg-[#2c2e3083] p-8 w-[50%] rounded-lg flex flex-col justify-between max-[771px]:w-full max-[1024px]:overflow-scroll">
+        <div className="max-sm:m-0 max-sm:h-full max-2ssm:rounded-none max-sm:w-full max-sm:justify-between  z-50 backdrop-blur-3xl bg-[#2c2e3083] p-8 w-[50%] rounded-lg flex flex-col justify-between max-md:w-full max-lg:overflow-scroll">
           <div className="flex flex-row items-center justify-between ">
-            <h1 className="text-5xl font-black max-[390px]:text-3xl">
-              Sign In
-            </h1>
+            <h1 className="text-5xl font-black max-ssm:text-3xl">Sign In</h1>
             <Image src={running} alt="health" width={100} height={100} />
           </div>
           {success ? (

@@ -208,11 +208,11 @@ export default function createWorkouts() {
 
   return (
     <form
-      className="transition-all relative z-10 before:block before:absolute before:w-[50%] before:rounded-t-full before:h-[50%] before:bottom-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-b-full after:h-[50%] after:w-[50%] after:top-0 after:right-0 after:bg-[#E5383B] after:z-0 flex flex-col justify-between items-center  text-[#161A1D] max-[600px]:flex-col h-screen"
+      className="transition-all relative z-10 before:block before:absolute before:w-[50%] before:rounded-t-full before:h-[50%] before:bottom-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-b-full after:h-[50%] after:w-[50%] after:top-0 after:right-0 after:bg-[#E5383B] after:z-0 flex flex-col justify-between items-center  text-[#161A1D] max-sm:flex-col h-screen"
       onSubmit={(e) => createWorkout(e)}
     >
       {formStep === 0 ? (
-        <div className="transition-all backdrop-blur-3xl z-50 m-10 p-10 bg-[#2c2e3083] text-white w-[50%] max-[1024px]:w-[70%] max-[1024px]:overflow-scroll rounded-xl max-[600px]:rounded-none max-[600px]:w-full h-screen flex flex-col gap-10 max-[671px]:m-0 justify-start">
+        <div className="transition-all backdrop-blur-3xl z-50 m-10 p-10 bg-[#2c2e3083] text-white w-[50%] max-lg:w-[70%] max-lg:overflow-scroll rounded-xl max-sm:rounded-none max-sm:w-full h-screen flex flex-col gap-10 max-sm:m-0 justify-start">
           <div>
             <h1 className="text-3xl font-black mb-5">Workout Name</h1>
             <TextField
@@ -310,11 +310,11 @@ export default function createWorkouts() {
                   }}
                   className=" text-[#161a1d] text-xl h-full bg-[#F5F3F4] rounded-xl hover:opacity-90  transition-all w-[100%] flex justify-center items-center gap-2"
                 >
-                  <p className="text-[1em] max-[471px]:text-[0.6em]">NEXT</p>
+                  <p className="text-[1em] max-2ssm:text-[0.6em]">NEXT</p>
                   <div>
                     <SkipNextRoundedIcon
                       fontSize="large"
-                      className="max-[471px]:text-[1.5em]"
+                      className="max-2ssm:text-[1.5em]"
                     />
                   </div>
                 </button>
@@ -325,11 +325,11 @@ export default function createWorkouts() {
                 className="h-full bg-[#ffffff21] rounded-xl hover:opacity-90  transition-all w-[100%] flex justify-center items-center"
               >
                 <button className="text-[#bbbbbb9a] text-xl h-full bg-[#ffffff21] rounded-xl hover:opacity-90  transition-all w-[100%] flex justify-center items-center gap-2">
-                  <p className="text-[1em] max-[471px]:text-[0.6em]">NEXT</p>
+                  <p className="text-[1em] max-2ssm:text-[0.6em]">NEXT</p>
                   <div>
                     <SkipNextRoundedIcon
                       fontSize="large"
-                      className="max-[471px]:text-[1.5em]"
+                      className="max-2ssm:text-[1.5em]"
                     />
                   </div>
                 </button>
@@ -338,7 +338,7 @@ export default function createWorkouts() {
           </div>
         </div>
       ) : (
-        <div className="transition-all backdrop-blur-3xl z-50 m-10 p-10 bg-[#2c2e3083] text-white w-[50%] max-[1024px]:w-[70%] max-[1024px]:overflow-scroll rounded-xl max-[600px]:rounded-none max-[600px]:w-full h-screen flex flex-col gap-10 max-[671px]:m-0 justify-start">
+        <div className="transition-all backdrop-blur-3xl z-50 m-10 p-10 bg-[#2c2e3083] text-white w-[50%] max-lg:w-[70%] max-lg:overflow-scroll rounded-xl max-sm:rounded-none max-sm:w-full h-screen flex flex-col gap-10 max-sm:m-0 justify-start">
           {success ? (
             <Alert className="mt-5 transition-all" severity="success">
               Workout successfully created!
@@ -457,7 +457,7 @@ export default function createWorkouts() {
             </Select>
           </FormControl>
 
-          <div className="flex flex-wrap items-center justify-start flex-row gap-6 h-[30vh] overflow-scroll overflow-x-hidden max-[371px]:justify-center max-[557px]:justify-center">
+          <div className="flex flex-wrap items-center justify-start flex-row gap-6 h-[30vh] overflow-scroll overflow-x-hidden max-sm:justify-center">
             {exercisesSelected?.map((itemsSelected, index) => {
               return (
                 <div key={itemsSelected?.name}>
@@ -493,10 +493,10 @@ export default function createWorkouts() {
                 <div>
                   <SkipPreviousRoundedIcon
                     fontSize="large"
-                    className="max-[471px]:text-[1.5em]"
+                    className="max-2ssm:text-[1.5em]"
                   />
                 </div>
-                <p className="text-[1em] max-[471px]:text-[0.6em]">BACK</p>
+                <p className="text-[1em] max-2ssm:text-[0.6em]">BACK</p>
               </button>
             </div>
             {workoutName !== "" &&

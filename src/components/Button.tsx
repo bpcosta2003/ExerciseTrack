@@ -29,7 +29,7 @@ export default function Button({text, icon, type}: PropsButton) {
               ) : (
                 ""
               )}
-              <h1 className="text-[#2B2D42] opacity-0 transition-all max-[471px]:text-[0.6em]">
+              <h1 className="text-[#2B2D42] opacity-0 transition-all max-2ssm:text-[0.6em]">
                 {text}
               </h1>
             </button>
@@ -42,7 +42,7 @@ export default function Button({text, icon, type}: PropsButton) {
               ) : (
                 ""
               )}
-              <h1 className="text-[#2B2D42] opacity-100 transition-all max-[471px]:text-[0.6em]">
+              <h1 className="text-[#2B2D42] opacity-100 transition-all max-2ssm:text-[0.6em]">
                 {text}
               </h1>
             </button>
@@ -63,7 +63,7 @@ export default function Button({text, icon, type}: PropsButton) {
               ) : (
                 ""
               )}
-              <h1 className="text-[#F5F3F4] opacity-0 transition-all max-[471px]:text-[0.6em]">
+              <h1 className="text-[#F5F3F4] opacity-0 transition-all max-2ssm:text-[0.6em]">
                 {text}
               </h1>
             </button>
@@ -76,7 +76,7 @@ export default function Button({text, icon, type}: PropsButton) {
               ) : (
                 ""
               )}
-              <h1 className="text-[#F5F3F4] opacity-100 transition-all max-[471px]:text-[0.6em]">
+              <h1 className="text-[#F5F3F4] opacity-100 transition-all max-2ssm:text-[0.6em]">
                 {text}
               </h1>
             </button>

@@ -34,7 +34,7 @@ export default function CardCalories({
   };
 
   return (
-    <div className="shadow-lg bg-[#2c2e3083] overflow-y-hidden flex-row  w-full p-4 text-[#bbbbbb9a] text-xl gap-5 transition-all  flex justify-between items-center h-48  max-[500px]:flex-col max-[500px]:h-auto">
+    <div className="shadow-lg bg-[#2c2e3083] overflow-y-hidden flex-row  w-full p-4 text-[#bbbbbb9a] text-xl gap-5 transition-all  flex justify-between items-center h-48  max-2ssm:flex-col max-2ssm:h-auto">
       <div className="flex flex-row justify-between items-center gap-5 w-full">
         {step === 0 ? (
           <NutrientsInfos

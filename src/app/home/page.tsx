@@ -16,15 +16,15 @@ import meal from "../../../public/meal.png";
 
 export default function Home() {
   return (
-    <div className="transition-all z-10 before:block before:absolute before:w-[50%] before:rounded-b-full before:h-[50%] before:top-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-t-full after:h-[50%] after:w-[50%] after:bottom-0 after:right-0 after:bg-[#E5383B] after:z-0 flex flex-col justify-between items-center  text-white max-[600px]:flex-col h-screen ">
-      <div className="transition-all z-50  flex flex-col justify-center w-screen h-screen p-14 max-w-7xl max-h-full m-auto gap-10 max-[671px]:p-0 max-[671px]:justify-start ">
-        <div className="transition-all backdrop-blur-3xl z-50 bg-gradient-to-t from-[#2c2e303d] rounded-3xl max-[671px]:rounded-none max-[671px]:overflow-scroll ">
-          <div className="max-[671px]:sticky max-[671px]:top-0 z-[100]">
+    <div className="transition-all z-10 before:block before:absolute before:w-[50%] before:rounded-b-full before:h-[50%] before:top-0 before:left-0 before:bg-[#E5383B] before:z-0 after:block after:absolute after:rounded-t-full after:h-[50%] after:w-[50%] after:bottom-0 after:right-0 after:bg-[#E5383B] after:z-0 flex flex-col justify-between items-center  text-white max-sm:flex-col h-screen ">
+      <div className="transition-all z-50  flex flex-col justify-center w-screen h-screen p-14 max-w-7xl max-h-full m-auto gap-10 max-sm:p-0 max-sm:justify-start ">
+        <div className="transition-all backdrop-blur-3xl z-50 bg-gradient-to-t from-[#2c2e303d] rounded-3xl max-sm:rounded-none max-sm:overflow-scroll ">
+          <div className="max-sm:sticky max-sm:top-0 z-[100]">
             <Navbar />
           </div>
           <div className=" p-10 flex flex-col gap-10 w-full">
-            <div className="w-full flex flex-row gap-10 justify-between max-[671px]:flex-col  max-[671px]:gap-7 items-center max-[671px]:items-stretch">
-              <div className="flex flex-row justify-center items-center gap-5 max-[371px]:p-5 max-[371px]:pt-6">
+            <div className="w-full flex flex-row gap-10 justify-between max-sm:flex-col  max-sm:gap-7 items-center max-sm:items-stretch">
+              <div className="flex flex-row justify-center items-center gap-5 max-ssm:p-5 max-ssm:pt-6">
                 <Image
                   src={Logo}
                   alt="Exercise Track"
@@ -40,7 +40,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="flex flex-row justify-between gap-10 max-[867px]:flex-col">
+            <div className="flex flex-row justify-between gap-10 max-2md:flex-col">
               <div className="w-full overflow-scroll overflow-x-hidden ">
                 <CardTreino isToday={true} isRemovable={false} />
               </div>
@@ -52,8 +52,8 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="flex flex-col gap-10 max-[671px]:pb-10 overflow-scroll h-fit">
-              <div className="flex flex-row w-full justify-between gap-10 max-[671px]:flex-col">
+            <div className="flex flex-col gap-10 max-sm:pb-10 overflow-scroll h-fit">
+              <div className="flex flex-row w-full justify-between gap-10 max-sm:flex-col">
                 <Link href="/myWorkouts" className="w-full z-50" legacyBehavior>
                   <div className="w-full">
                     <CardOpts title="My Workouts" icon={dashboard} />
@@ -65,7 +65,7 @@ export default function Home() {
                   </div>
                 </Link>
               </div>
-              <div className="flex flex-row w-full justify-between gap-10 max-[671px]:flex-col">
+              <div className="flex flex-row w-full justify-between gap-10 max-sm:flex-col">
                 <Link
                   href="/mealAnalysis"
                   className="w-full z-50"
