@@ -17,9 +17,10 @@ By [Bruno Costa](https://www.linkedin.com/in/bruno-costa-3238161b5/)
 
 ![image](https://github.com/bpcosta2003/exercise-track-app/assets/69023428/d723ab38-41cd-498a-a4ab-016db2d2e9a1)
 ![image](https://github.com/bpcosta2003/exercise-track-app/assets/69023428/1427d35d-20a9-4f53-bde5-59ce02f80069)
-![image](https://github.com/bpcosta2003/exercise-track-app/assets/69023428/52263ede-36ff-4779-980f-401b8e88f116)
+![image](https://github.com/bpcosta2003/ExerciseTrack/assets/69023428/be27c778-f65b-49cb-8f9d-16421b1a40f0)
 
-TEST IT NOW!
+
+[TEST IT NOW!](https://exercisetrack-bybrunocosta.vercel.app/)
 
 </br>
 
@@ -52,6 +53,8 @@ TEST IT NOW!
 - Create weight, height and age status ✔️
 - Create BMR ( Basal metabolic rate ) using AI ✔️
 - Have a profile picture, update and delete it ✔️
+- Search recipes and favorite it ✔️
+- See Macronutrients of this recipes ✔️
 
 </br>
 
@@ -98,3 +101,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+</br>
+</br>
